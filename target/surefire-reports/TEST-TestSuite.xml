@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.267" tests="5" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\RestAssuredTestNGFramework-master\target\test-classes;E:\RestAssuredTestNGFramework-master\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire3155328463028920715\surefirebooter-20230728143907362_3.jar C:\Users\Admin\AppData\Local\Temp\surefire3155328463028920715 2023-07-28T14-39-06_547-jvmRun1 surefire-20230728143907362_1tmp surefire_0-20230728143907362_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\RestAssuredTestNGFramework-master\target\test-classes;E:\RestAssuredTestNGFramework-master\target\classes;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Admin\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-rest-assured\2.13.8\allure-rest-assured-2.13.8.jar;C:\Users\Admin\.m2\repository\io\qameta\allure\allure-attachments\2.13.8\allure-attachments-2.13.8.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Admin\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Admin\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Admin\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\RestAssuredTestNGFramework-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire3155328463028920715\surefirebooter-20230728143907362_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+9-LTS-224"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="E:\RestAssuredTestNGFramework-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Java\jre1.8.0_361\bin;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.2\bin;C:\Users\Admin\scoop\shims;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.19+9-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="getPlayList" classname="com.spotify.oauth2.test.PlayListTest" time="9.919">
+    <failure message="ABORT!!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT!!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:29)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.get(PlaylistApi.java:25)
+	at com.spotify.oauth2.test.PlayListTest.getPlayList(PlayListTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[STARTING Test::::::::getPlayList
+TREAD ID::::::::::17
+STARTING Test::::::::createPlaylist
+TREAD ID::::::::::16
+STARTING Test::::::::shouldNotcreatePlaylist
+TREAD ID::::::::::18
+STARTING Test::::::::shouldNotcreatePlaylistWith_expiredToken
+TREAD ID::::::::::19
+STARTING Test::::::::updatePlayList
+TREAD ID::::::::::20
+Renewing token ...
+Request method:	POST
+Request URI:	http://localhost:8080/https%3A%2F%2Faccounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBKq2msrjg0DVwC3U1irmh0IHgQlJC5PwVSJ6_Otm2c5PUgunBK3DOgKMw0VniuGZ7GEajXOyZZRMLOB-Cp0fJsspcdeci9wPaZ-unG1j7yD5VkAgXEAXtAB-Bgk_2G554
+				grant_type=refresh_token
+				client_secret=ade4ba60915242f9b03200d87661afef
+				client_id=49af83d8eaf04c2b99c12b3ff75a0c66
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	http://localhost:8080/v1/users/31ddhwcwhnjhdmut22ty6n6f4l2y/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description 58+0#&j3f&_Q&&_3a_.&+##oJd&# _7_&TF_5__++5& &+&_5+",
+    "name": "Playlist , yU-_7U s",
+    "public": false
+}
+HTTP/1.1 403 Forbidden
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 587
+Server: Jetty(10.0.13)
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <title>Error 403 No valid crumb was included in the request</title>
+  </head>
+  <body>
+    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
+    <table>
+      <tr>
+        <th colspan="1" rowspan="1">URI:</th>
+        <td colspan="1" rowspan="1">/v1/users/31ddhwcwhnjhdmut22ty6n6f4l2y/playlists</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">STATUS:</th>
+        <td colspan="1" rowspan="1">403</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">MESSAGE:</th>
+        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">SERVLET:</th>
+        <td colspan="1" rowspan="1">Stapler</td>
+      </tr>
+    </table>
+    <hr/>
+    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.13</a>
+    <hr/>
+  </body>
+</html>
+HTTP/1.1 403 Forbidden
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 584
+Server: Jetty(10.0.13)
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <title>Error 403 No valid crumb was included in the request</title>
+  </head>
+  <body>
+    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
+    <table>
+      <tr>
+        <th colspan="1" rowspan="1">URI:</th>
+        <td colspan="1" rowspan="1">/https%3A%2F%2Faccounts.spotify.com/api/token</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">STATUS:</th>
+        <td colspan="1" rowspan="1">403</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">MESSAGE:</th>
+        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">SERVLET:</th>
+        <td colspan="1" rowspan="1">Stapler</td>
+      </tr>
+    </table>
+    <hr/>
+    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.13</a>
+    <hr/>
+  </body>
+</html>
+Renewing token ...
+Request method:	POST
+Request URI:	http://localhost:8080/https%3A%2F%2Faccounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBKq2msrjg0DVwC3U1irmh0IHgQlJC5PwVSJ6_Otm2c5PUgunBK3DOgKMw0VniuGZ7GEajXOyZZRMLOB-Cp0fJsspcdeci9wPaZ-unG1j7yD5VkAgXEAXtAB-Bgk_2G554
+				grant_type=refresh_token
+				client_secret=ade4ba60915242f9b03200d87661afef
+				client_id=49af83d8eaf04c2b99c12b3ff75a0c66
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.lang.RuntimeException: ABORT!!! Renew Token failed
+	at com.spotify.oauth2.api.TokenManager.renewToken(TokenManager.java:44)
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:19)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.get(PlaylistApi.java:25)
+	at com.spotify.oauth2.test.PlayListTest.getPlayList(PlayListTest.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotcreatePlaylistWith_expiredToken" classname="com.spotify.oauth2.test.PlayListTest" time="9.925">
+    <failure message="&#10;Expected: &lt;401&gt;&#10;     but: was &lt;403&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: <401>
+     but: was <403>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.spotify.oauth2.test.PlayListTest.shouldNotcreatePlaylistWith_expiredToken(PlayListTest.java:120)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+  </testcase>
+  <testcase name="updatePlayList" classname="com.spotify.oauth2.test.PlayListTest" time="10.036">
+    <failure message="ABORT!!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT!!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:29)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.update(PlaylistApi.java:29)
+	at com.spotify.oauth2.test.PlayListTest.updatePlayList(PlayListTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 403 Forbidden
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 584
+Server: Jetty(10.0.13)
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <title>Error 403 No valid crumb was included in the request</title>
+  </head>
+  <body>
+    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
+    <table>
+      <tr>
+        <th colspan="1" rowspan="1">URI:</th>
+        <td colspan="1" rowspan="1">/https%3A%2F%2Faccounts.spotify.com/api/token</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">STATUS:</th>
+        <td colspan="1" rowspan="1">403</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">MESSAGE:</th>
+        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">SERVLET:</th>
+        <td colspan="1" rowspan="1">Stapler</td>
+      </tr>
+    </table>
+    <hr/>
+    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.13</a>
+    <hr/>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[java.lang.RuntimeException: ABORT!!! Renew Token failed
+	at com.spotify.oauth2.api.TokenManager.renewToken(TokenManager.java:44)
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:19)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.update(PlaylistApi.java:29)
+	at com.spotify.oauth2.test.PlayListTest.updatePlayList(PlayListTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></system-err>
+  </testcase>
+  <testcase name="shouldNotcreatePlaylist" classname="com.spotify.oauth2.test.PlayListTest" time="10.109">
+    <failure message="ABORT!!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT!!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:29)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:16)
+	at com.spotify.oauth2.test.PlayListTest.shouldNotcreatePlaylist(PlayListTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[Renewing token ...
+Request method:	POST
+Request URI:	http://localhost:8080/https%3A%2F%2Faccounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBKq2msrjg0DVwC3U1irmh0IHgQlJC5PwVSJ6_Otm2c5PUgunBK3DOgKMw0VniuGZ7GEajXOyZZRMLOB-Cp0fJsspcdeci9wPaZ-unG1j7yD5VkAgXEAXtAB-Bgk_2G554
+				grant_type=refresh_token
+				client_secret=ade4ba60915242f9b03200d87661afef
+				client_id=49af83d8eaf04c2b99c12b3ff75a0c66
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 584
+Server: Jetty(10.0.13)
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <title>Error 403 No valid crumb was included in the request</title>
+  </head>
+  <body>
+    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
+    <table>
+      <tr>
+        <th colspan="1" rowspan="1">URI:</th>
+        <td colspan="1" rowspan="1">/https%3A%2F%2Faccounts.spotify.com/api/token</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">STATUS:</th>
+        <td colspan="1" rowspan="1">403</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">MESSAGE:</th>
+        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">SERVLET:</th>
+        <td colspan="1" rowspan="1">Stapler</td>
+      </tr>
+    </table>
+    <hr/>
+    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.13</a>
+    <hr/>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[java.lang.RuntimeException: ABORT!!! Renew Token failed
+	at com.spotify.oauth2.api.TokenManager.renewToken(TokenManager.java:44)
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:19)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:16)
+	at com.spotify.oauth2.test.PlayListTest.shouldNotcreatePlaylist(PlayListTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></system-err>
+  </testcase>
+  <testcase name="createPlaylist" classname="com.spotify.oauth2.test.PlayListTest" time="10.382">
+    <failure message="ABORT!!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT!!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:29)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:16)
+	at com.spotify.oauth2.test.PlayListTest.createPlaylist(PlayListTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-out><![CDATA[Renewing token ...
+Request method:	POST
+Request URI:	http://localhost:8080/https%3A%2F%2Faccounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQBKq2msrjg0DVwC3U1irmh0IHgQlJC5PwVSJ6_Otm2c5PUgunBK3DOgKMw0VniuGZ7GEajXOyZZRMLOB-Cp0fJsspcdeci9wPaZ-unG1j7yD5VkAgXEAXtAB-Bgk_2G554
+				grant_type=refresh_token
+				client_secret=ade4ba60915242f9b03200d87661afef
+				client_id=49af83d8eaf04c2b99c12b3ff75a0c66
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=iso-8859-1
+Content-Length: 584
+Server: Jetty(10.0.13)
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
+    <title>Error 403 No valid crumb was included in the request</title>
+  </head>
+  <body>
+    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
+    <table>
+      <tr>
+        <th colspan="1" rowspan="1">URI:</th>
+        <td colspan="1" rowspan="1">/https%3A%2F%2Faccounts.spotify.com/api/token</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">STATUS:</th>
+        <td colspan="1" rowspan="1">403</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">MESSAGE:</th>
+        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
+      </tr>
+      <tr>
+        <th colspan="1" rowspan="1">SERVLET:</th>
+        <td colspan="1" rowspan="1">Stapler</td>
+      </tr>
+    </table>
+    <hr/>
+    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.13</a>
+    <hr/>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[java.lang.RuntimeException: ABORT!!! Renew Token failed
+	at com.spotify.oauth2.api.TokenManager.renewToken(TokenManager.java:44)
+	at com.spotify.oauth2.api.TokenManager.getToken(TokenManager.java:19)
+	at com.spotify.oauth2.api.applicationApi.PlaylistApi.post(PlaylistApi.java:16)
+	at com.spotify.oauth2.test.PlayListTest.createPlaylist(PlayListTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></system-err>
+  </testcase>
+</testsuite>

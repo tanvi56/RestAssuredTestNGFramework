@@ -1,0 +1,5 @@
+Allure command for web result 
+
+right click on project 
+show in terminal 
+execute------>  allure serve target\allure-results 
